@@ -1,0 +1,14 @@
+$kind: http-request
+name: Create new Tour
+description: ""
+url: 127.0.0.1:3000/api/v1/tours
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name":"Test tour 2",
+        "duration" :"6 days",
+        "difficulty":"easy"
+    }
+order: 2327348024228127

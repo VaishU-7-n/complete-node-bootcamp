@@ -1,0 +1,11 @@
+$kind: http-request
+name: update tour
+url: http://127.0.0.1:3000/api/v1/tours/5
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "duration":15
+    }
+order: 2410185910489729

@@ -1,0 +1,6 @@
+$kind: http-request
+name: Delete tour
+description: ""
+url: 127.0.0.1:3000/api/v1/tours/3
+method: DELETE
+order: 2781806346455149
