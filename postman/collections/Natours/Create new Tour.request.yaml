@@ -7,8 +7,9 @@ body:
   type: json
   content: |-
     {
-        "name":"Test tour 2",
+        "name":"nameee",
         "duration" :"6 days",
-        "difficulty":"easy"
+        "difficulty":"easy",
+        "price":100
     }
 order: 2327348024228127
