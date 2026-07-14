@@ -1,8 +1,9 @@
 const fs = require('fs');
+const Tour = require('./../models/tourModel');
 
-const tours = JSON.parse(
-  fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`, 'utf-8'),
-); //we read this out side the routing because it is needed to be read only once
+// const tours = JSON.parse(
+//   fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`, 'utf-8'),
+// ); //we read this out side the routing because it is needed to be read only once
 
 exports.checkID=(req,res,next,val)=>{
   
@@ -33,8 +34,8 @@ exports.getAllTours = (req, res) => {
   res.status(200).json({
     status: 'success',
     requestedAt: req.requestTime,
-    results: tours.length,
-    data: { tours: tours },
+    // results: tours.length,
+    // data: { tours: tours },
   });
 };
 
