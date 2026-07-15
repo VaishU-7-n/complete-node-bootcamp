@@ -10,6 +10,7 @@ body:
         "name":"nameee",
         "duration" :"6 days",
         "difficulty":"easy",
-        "price":100
+        "price":100,
+        "rating":4.9
     }
 order: 2327348024228127
