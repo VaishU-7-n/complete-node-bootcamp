@@ -1,11 +1,11 @@
 $kind: http-request
 name: update tour
-url: http://127.0.0.1:3000/api/v1/tours/5
+url: http://127.0.0.1:3000/api/v1/tours/6a5641ada005c61e364aa39f
 method: PATCH
 body:
   type: json
   content: |-
     {
-        "duration":15
+        "price":500
     }
 order: 2410185910489729

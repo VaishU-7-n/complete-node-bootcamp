@@ -7,10 +7,27 @@ body:
   type: json
   content: |-
     {
-        "name":"nameee",
-        "duration" :"6 days",
-        "difficulty":"easy",
-        "price":100,
-        "rating":4.9
-    }
+            "id": 3,
+            "name": "The City Wanderers_test_3_secret",
+            "secretTour":true,
+            "duration": 9,
+            "maxGroupSize": 20,
+            "difficulty": "easy",
+            "ratingsAverage": 4.6,
+            "ratingsQuantity": 54,
+            "price": 1197,
+            "summary": "Living the life of Wanderlust in the US' most beatiful cities",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+            "imageCover": "tour-4-cover.jpg",
+            "images": [
+                "tour-4-1.jpg",
+                "tour-4-2.jpg",
+                "tour-4-3.jpg"
+            ],
+            "startDates": [
+                "2021-03-11,10:00",
+                "2021-05-02,10:00",
+                "2021-06-09,10:00"
+            ]
+        }
 order: 2327348024228127
